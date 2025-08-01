@@ -2,24 +2,25 @@ import { BlogCard } from "@/components/BlogCard";
 
 const dummyBlogs = [
   {
-    image: "https://source.unsplash.com/random/600x400?tech",
+    image: "https://picsum.photos/600/400?random=1",
     title: "Understanding React Server Components in Next.js",
-    description: "Explore how server components improve performance and simplify data fetching in Next.js 14.",
+    description: "...",
     category: "Next.js",
   },
   {
-    image: "https://source.unsplash.com/random/600x400?code",
-    title: "Top 5 UI Libraries for Building Modern Frontends",
-    description: "Discover the best component libraries including shadcn/ui and how to use them effectively.",
-    category: "UI/UX",
-  },
+  image: "https://placehold.co/600x400/0044CC/FFFFFF?text=Top+UI+Libraries",
+  title: "Top 5 UI Libraries for Building Modern Frontends",
+  description: "...",
+  category: "UI/UX",
+},
   {
-    image: "https://source.unsplash.com/random/600x400?blog",
+    image: "https://placehold.co/600x400/0044cc/ffffff?text=API+Blog",
     title: "Creating a Blog Using External APIs in Next.js",
-    description: "Learn how to connect and display dynamic blog data using APIs in a modern frontend.",
+    description: "...",
     category: "API",
   },
 ];
+
 
 
 export default function Home() {
